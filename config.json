@@ -15,18 +15,20 @@
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
         },
+        
         {
             "Path" : "delay",
             "Class" : "DNWS.DelayPlugin",
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
         },
+
         {
-            "Path" : "clientinfo",
-            "Class" : "DNWS.Client",
-            "Preprocessing" : "true",
-            "Postprocessing" : "false" ,
-            "Singleton" : "false"
+            "Path" : "pm25",
+            "Class" : "DNWS.PM25Plugin",
+            "Preprocessing" : "false",
+            "Postprocessing" : "false"
+
         }
     ]
 }
